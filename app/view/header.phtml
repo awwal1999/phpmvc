@@ -1,0 +1,16 @@
+<?php $pageName = $this->getPageName();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="/css/style.css">
+	<title><?= isset($this->pageTitle) ? $this->pageTitle : ""; ?></title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/home/index" class="<?php echo ($pageName=="index" ? "active" : ""); ?>">Home</a></li>
+			<li><a href="/home/aboutUs">About</a></li>
+		</ul>
+	</nav>

@@ -1,0 +1,30 @@
+body {
+	margin: 0px;
+}
+nav {
+	background-color: deepskyblue;
+	color: #fff;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	display: block;
+	padding: 10px 14px;
+	text-decoration: none;
+	color: #fff;
+}
+nav ul li a:hover {
+	background-color: lightskyblue;
+}
+.active {
+	background-color: #c3c3c3;
+}
+a.aPad {
+	padding: 4px 8px;
+}
